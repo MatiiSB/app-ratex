@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    background-color: #62079F;
+    height: 80px;
+    display: flex;
+    border-top: 1px solid #0e0414b0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: auto;
+}
+
+/*Links a otras paginas dentro de la web*/
+.btnsFooter{
+    font-family: Catamaran;
+    font-size:medium;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    font-weight:700;
+}
+/*Whatsapp y mail li*/
+.logosContacto{
+    display: flex;
+    height: 30px;
+}
+
+/*Para las imagenes de WPP y Mail*/
+.logoFooter{
+    width: 25px
+}

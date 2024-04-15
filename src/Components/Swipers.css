@@ -1,0 +1,51 @@
+.swiper_container{
+    width: 400px;
+}
+
+.swipeContainer{
+    width: 1500px;
+}
+
+.portada{
+    display: inline-block;
+    position: relative;
+}
+
+.imagenSwiper {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background: transparent;
+
+}
+
+.contenedor p{
+    padding: 0;
+    
+    
+}
+
+
+.contenedor:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.563);
+
+}
+

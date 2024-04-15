@@ -1,0 +1,41 @@
+.logoRatex{
+    width: 100px;
+}
+.navContainer{
+    width: 100%;
+    height: 100px;
+    background-color: #62079F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px ;
+}
+
+.logoContainer{
+    width: 10%;
+
+}
+
+.logoLink { 
+    height: 12vh;
+}
+.btnsContainer{
+
+}
+
+.btnsLista{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.btnsLista li{
+    margin-left: 18px;
+}
+
+.btnsItems {
+    font-family: Catamaran;
+    font-weight: 600;
+}
+

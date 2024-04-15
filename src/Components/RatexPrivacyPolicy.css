@@ -1,0 +1,38 @@
+.ratex-privacy-policy {
+    font-family: Inder;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0;
+    text-align: start;
+    color: #F6F5E4;
+  }
+  
+  .ratex-privacy-policy h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .ratex-privacy-policy h2{
+    text-decoration: underline;
+    padding: 10px;
+  }
+  
+  .ratex-privacy-policy p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .ratex-privacy-policy ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .ratex-privacy-policy li {
+    margin-bottom: 5px;
+  }
+
+  .ratex-privacy-policy ul, li, p{
+    padding-left: 25px;
+  }

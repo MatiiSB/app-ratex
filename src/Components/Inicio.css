@@ -1,0 +1,11 @@
+.Inicio h2{
+    text-decoration: none;
+    font-family: Catamaran;
+    font-weight: 500;
+    font-size: xx-large;
+    color: #F6F5E4;
+    display: flex;
+    padding: 40px 100px;
+
+
+}
