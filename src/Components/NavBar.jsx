@@ -4,6 +4,19 @@ import Boton from "./Boton"
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
 
+let lastScrollTop = 0;
+
+let navbar = document.getElementById("navbar");
+window.addEventListener("scroll", function () {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrollTop>lastScrollTop) {
+    navbar.style.top = "-80px";        
+  }
+  else{
+    navbar.style.top = "0";
+  }
+  lastScrollTop = scrollTop;
+})
 function NavBar() {
   return (
       <div className="navContainer">
@@ -24,3 +37,5 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
