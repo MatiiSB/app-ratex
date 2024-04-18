@@ -1,0 +1,98 @@
+#wd{
+    background-color: #1f1d1d;
+}
+
+#titulo{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Catamaran;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-decoration: overline;
+}
+
+#boton {
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background-color: #1f1d1d94;
+    padding: 12px 36px;
+    color: #f6f5e4;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#campos{
+    margin: 15px 0
+}
+
+#nombre{
+    color: #F6F5E4;
+    font-family: inder;
+    letter-spacing: 0,5px;
+
+}
+
+#apellido{
+    color: #F6F5E4;
+    font-family: inder;
+    letter-spacing: 0,5px;
+}
+
+#email{
+    color: #F6F5E4;
+    font-family: inder;
+    letter-spacing: 0,5px;
+}
+
+#filled-adornment-password{
+    height: 40px;
+    letter-spacing: 0,5px;
+    outline-width: 0em;
+    padding-left: 15px;
+
+    padding-bottom: 0px;
+
+}
+
+#contaLabel{
+    padding-top: 15px;
+    font-family:sans-serif;
+}
+
+.checkboxContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+
+#boton:hover {
+    background-color: #ffffff;
+    color: #1f1d1d;
+
+}
+
+#botonCrear{
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background-color: #1f1d1d94;
+    padding: 10px 10px;
+    color: #f6f5e4;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#botonCrear:hover {
+    background-color: #ffffff;
+    color: #1f1d1d;
+
+}

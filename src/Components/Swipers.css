@@ -3,7 +3,7 @@
 }
 
 .swipeContainer{
-    width: 1500px;
+    width: 1300px;
 }
 
 .portada{
@@ -38,8 +38,15 @@
 
 .contenedor p{
     padding: 0;
-    
-    
+    font-family: Inder;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.contenedor h4{
+    text-transform: uppercase;
+    font-family: Inder;
 }
 
 

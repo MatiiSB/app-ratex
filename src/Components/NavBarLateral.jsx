@@ -53,10 +53,10 @@ function NavBarLateral({ children }) {
   const toggle = () => setIsOpen(!isOpen)
   return (
     <div className="navLateralContainer">
-      <div style={{width: isOpen ? "250px" : "100px" }} className="sidebar">
+      <div className="sidebar">
         <div className="top_section">
           <div style={{marginLeft: isOpen ? "200px" : "0px" }} className="bars">
-            <FaBars  style={{fontSize: isOpen? "25px":"40px"}} onClick={toggle}/>
+            <FaBars  style={{fontSize: isOpen? "25px":"25px"}} onClick={toggle}/>
           </div>
         </div>
         {menuItems.map((item, index) => (
@@ -66,7 +66,7 @@ function NavBarLateral({ children }) {
             className="link"
             activeclassName="active"
           >
-            <div style={{fontSize: isOpen? "25px":"40px"}} className="icon">{item.Icon}</div>
+            <div style={{marginLeft: isOpen ? "0px" : "0px"}} className="icon">{item.Icon}</div>
             <div style={{display: isOpen ? "block" : "none" }} className="link_text">{item.name}</div>
           </NavLink>
         ))}

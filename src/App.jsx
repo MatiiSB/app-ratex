@@ -12,6 +12,9 @@ import Peliculas from "./paginas/Puntuacion.jsx";
 import Series from "./paginas/Series.jsx";
 import Puntuacion from "./paginas/Puntuacion.jsx";
 
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -26,11 +29,10 @@ function App() {
             <Route path="/" element={<Peliculas />} />
             <Route path="/" element={<Puntuacion />} />
             <Route path="/" element={<Series />} />
+            <Route path="/RatexPrivacyPolicy" element={<RatexPrivacyPolicy />} />
           </Routes>
         </NavBarLateral>
-        <Routes>
-          <Route path="/RatexPrivacyPolicy" element={<RatexPrivacyPolicy />} />
-        </Routes>
+        
         <MiFooter />
       </div>
     </BrowserRouter>

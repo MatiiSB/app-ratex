@@ -5,7 +5,6 @@
 }
 .navLateralContainer{
     display: flex;
-
 }
 
 
@@ -16,7 +15,6 @@
 
 .sidebar{
     background-color: #62079F;
-    height: 100vh;
     transition: all 0.2s;
 
 }
