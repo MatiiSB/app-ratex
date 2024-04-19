@@ -11,13 +11,18 @@ function MiFooter() {
       <div>
         <ul>
           <li>
-          <Link className="btnsFooter" to="/RatexPrivacyPolicy">Faqs</Link>
+          <Link className="btnsFooter" to="/FAQs">Faqs</Link>
           </li>
           <li>
             
           <Link className="btnsFooter" to="/RatexPrivacyPolicy">Politicas de Privacidad</Link>
           </li>
         </ul> 
+      </div>
+
+      <div className="copyContainer">
+        <img className="logoRatexF" src={require("../Imagenes/logoRatex.png")}></img>
+        <h4 className="copy">©Ratex - 2024</h4>
       </div>
 
     {/*Contenedor de los logos de WPP y Mail, parte DER */ }

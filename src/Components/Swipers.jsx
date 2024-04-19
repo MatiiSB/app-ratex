@@ -1,25 +1,38 @@
 import React from "react";
 import "./Swipers.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Keyboard  } from 'swiper/modules';
 
 import 'swiper/swiper-bundle.css';
+import { PiSelectionBackgroundBold } from "react-icons/pi";
 
 function Swipers() {
   return (
     <Swiper
     className="swipeContainer"
-    modules={[Navigation, Pagination, Scrollbar, A11y]}
+    modules={[Navigation, Pagination, Scrollbar, A11y, Keyboard]}
     spaceBetween={50}
     slidesPerView={5}
-    navigation
-    pagination={{ clickable: true }}
+    loop="true"
+    navigation={{clickable: true }}
+    pagination={{ clickable: true, }}
+    keyboard={{
+          enabled: true,
+        }}
+    
+    style={{
+        '--swiper-navigation-color': '#62079F',
+          '--swiper-pagination-color': '#62079F',
+          "--swiper-pagination-bottom": "8px",
 
+        }}
+      
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
   >
     <SwiperSlide className="portada"> <div className="contenedor"><h4>One Life</h4> <p>Esta es una biografia de un señor que salva nenes de nasis</p>
     </div> <img className="imagenSwiper" src={require("../Imagenes/Swiper/One_Life.jpg")}></img></SwiperSlide>
+
 
     <SwiperSlide className="portada"> <div className="contenedor"><h4>Batman vs Superman</h4> <p>Pelicula de accion  y superheroes</p>
     </div> <img className="imagenSwiper" src={require("../Imagenes/Swiper/Batman_vs_Superman.jpg")}></img></SwiperSlide>
@@ -38,7 +51,7 @@ function Swipers() {
 
     <SwiperSlide className="portada"> <div className="contenedor"><h4>One Life</h4> <p>Esta es una biografia de un señor que salva nenes de nasis</p>
     </div> <img className="imagenSwiper" src={require("../Imagenes/Swiper/One_Life.jpg")}></img></SwiperSlide>
-    ...
+    -
   </Swiper>
 
   );

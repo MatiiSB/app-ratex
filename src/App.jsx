@@ -11,7 +11,7 @@ import Filtros from "./paginas/Peliculas.jsx";
 import Peliculas from "./paginas/Puntuacion.jsx";
 import Series from "./paginas/Series.jsx";
 import Puntuacion from "./paginas/Puntuacion.jsx";
-
+import {Faqs} from "./Components/FAQs.jsx"
 
 
 
@@ -29,6 +29,7 @@ function App() {
             <Route path="/" element={<Peliculas />} />
             <Route path="/" element={<Puntuacion />} />
             <Route path="/" element={<Series />} />
+            <Route path="/FAQs" element={<Faqs/>} />
             <Route path="/RatexPrivacyPolicy" element={<RatexPrivacyPolicy />} />
           </Routes>
         </NavBarLateral>

@@ -3,11 +3,11 @@
     background-color: #62079F;
     height: 80px;
     display: flex;
-    border-top: 1px solid #0e0414b0;
     justify-content: space-between;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 120px;
     margin-top: auto;
+    
 }
 
 /*Links a otras paginas dentro de la web*/
@@ -17,15 +17,48 @@
     color: #000000;
     text-decoration: none;
     text-align: left;
-    font-weight:700;
+    font-weight:500;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
+
+.btnsFooter:hover{
+    text-shadow: 0 0 20px #F6F5E4;
+}
+
+.copyContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoRatexF{
+    width: 80px;
+  
+    
+}
+
+.copy{
+    font-family: Catamaran;
+    
+}
+
 /*Whatsapp y mail li*/
 .logosContacto{
     display: flex;
     height: 30px;
+    
 }
 
 /*Para las imagenes de WPP y Mail*/
 .logoFooter{
-    width: 25px
+    width: 25px;
+    transition: 0.5s;
+    
+}
+
+.logoFooter:hover{
+    filter: drop-shadow(0  0  12px #F6F5E4);
+    
+
 }

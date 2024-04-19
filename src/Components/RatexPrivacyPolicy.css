@@ -5,17 +5,36 @@
     margin: 0;
     text-align: start;
     color: #F6F5E4;
+    border-left: 4px solid #F6F5E4;
+    border-radius:  35px 0  0 35px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+
   }
   
   .ratex-privacy-policy h1 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: Catamaran;
+    margin-left: 28%;
+    text-decoration:overline;
+    text-transform: uppercase;
+    color: #62079F;
+    text-shadow: 0 0 20px   #c653e994;
+    letter-spacing: 3px;
   }
 
   .ratex-privacy-policy h2{
     text-decoration: underline;
     padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #62079F;
+    text-shadow: 0 0 20px   #c653e994;
+    letter-spacing: 3px;
   }
   
   .ratex-privacy-policy p {
@@ -25,7 +44,8 @@
   }
   
   .ratex-privacy-policy ul {
-    list-style-type: none;
+    list-style-type: circle;
+    list-style-position: inside;
     padding-left: 20px;
   }
   
