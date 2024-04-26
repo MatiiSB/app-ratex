@@ -8,11 +8,10 @@ import NavBarLateral from "./Components/NavBarLateral.jsx";
 import Actores from "./paginas/Actores.jsx";
 import Categorias from "./paginas/Categorias.jsx";
 import Filtros from "./paginas/Peliculas.jsx";
-import Peliculas from "./paginas/Puntuacion.jsx";
-import Series from "./paginas/Series.jsx";
 import Puntuacion from "./paginas/Puntuacion.jsx";
+import Series from "./paginas/Series.jsx";
+import Peliculas from "./paginas/Peliculas.jsx";
 import {Faqs} from "./Components/FAQs.jsx"
-
 
 
 function App() {
@@ -23,12 +22,12 @@ function App() {
         <NavBarLateral>
           <Routes>
             <Route path="/" element={<Inicio />} />
-            <Route path="/" element={<Actores />} />
-            <Route path="/" element={<Categorias />} />
-            <Route path="/" element={<Filtros />} />
-            <Route path="/" element={<Peliculas />} />
-            <Route path="/" element={<Puntuacion />} />
-            <Route path="/" element={<Series />} />
+            <Route path="/Actores" element={<Actores />} />
+            <Route path="/Categorias" element={<Categorias />} />
+            <Route path="/Filtros" element={<Filtros />} />
+            <Route path="/Peliculas" element={<Peliculas />} />
+            <Route path="/Puntuacion" element={<Puntuacion />} />
+            <Route path="/Series" element={<Series />} />
             <Route path="/FAQs" element={<Faqs/>} />
             <Route path="/RatexPrivacyPolicy" element={<RatexPrivacyPolicy />} />
           </Routes>
