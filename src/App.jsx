@@ -1,5 +1,5 @@
 import "./App.css";
-import NavBar from "./Components/NavBar.jsx";
+import {NavBar} from "./Components/NavBar.jsx";
 import Inicio from "./Components/Inicio.jsx";
 import MiFooter from "./Components/MiFooter.jsx";
 import RatexPrivacyPolicy from "./Components/RatexPrivacyPolicy.jsx";
@@ -12,21 +12,26 @@ import Peliculas from "./paginas/Puntuacion.jsx";
 import Series from "./paginas/Series.jsx";
 import Puntuacion from "./paginas/Puntuacion.jsx";
 import {Faqs} from "./Components/FAQs.jsx"
+import React, {useState} from "react";
+
 
 
 
 function App() {
+
+
   return (
     <BrowserRouter>
       <div className="App ">
-        <NavBar id="navbar" />
+        <NavBar id="navbar"  />
         <NavBarLateral>
+
           <Routes>
             <Route path="/" element={<Inicio />} />
-            <Route path="/" element={<Actores />} />
-            <Route path="/" element={<Categorias />} />
-            <Route path="/" element={<Filtros />} />
-            <Route path="/" element={<Peliculas />} />
+            <Route path="/Actores" element={<Actores />} />
+            <Route path="/Categorias" element={<Categorias />} />
+            <Route path="/Filtros" element={<Filtros />} />
+            <Route path="/Peliculas" element={<Peliculas />} />
             <Route path="/" element={<Puntuacion />} />
             <Route path="/" element={<Series />} />
             <Route path="/FAQs" element={<Faqs/>} />
